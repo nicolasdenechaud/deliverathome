@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<personne>
+<nom>Voyageur</nom>
+<prenom>Grand</prenom>
+<adresse>62 avenue Notre Dame du lac</adresse>
+<cp>49000</cp>
+<ville>Angers</ville>
+<mail>istia@univ-angers.fr</mail>
+<motdepasse>123456</motdepasse>
+<vehicule>Voiture</vehicule>
+</personne>

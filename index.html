@@ -58,7 +58,7 @@
 					<li><a href="envoi.html">Envoi</a></li>
 					<li><a href="livraison.html">Livreur</a></li>
 					<li><a href="#" data-toggle="modal" data-target="#modal1" class="btn btn-blue">Inscription</a></li>
-					<li><a href="#" data-toggle="modal" data-target="#modal2" class="btn btn-blue">Se connecter</a></li>
+					<li><a onclick="remplirconnection()" href="#" data-toggle="modal" data-target="#modal2" class="btn btn-blue">Se connecter</a></li>
 				</ul>
 			</div>
 			<!-- /.navbar-collapse -->
@@ -285,8 +285,8 @@
 				<h3 class="white">Connection</h3>
 				<form action="Compte.html" class="popup-form">
 
-					<input type="text" class="form-control form-white" placeholder="Adresse Email">
-					<input type="password" class="form-control form-white" placeholder="Mot de Passe">
+					<input type="text" class="form-control form-white" placeholder="Adresse Email" id="mymail">
+					<input type="password" class="form-control form-white" placeholder="Mot de Passe" id="mypwd">
 
 					<!--<button type="submit" class="btn btn-submit">Se connecter</button>-->
 					<button type="action" class="btn btn-submit">Se connecter</button>
@@ -317,6 +317,7 @@
 	<script src="js/typewriter.js"></script>
 	<script src="js/jquery.onepagenav.js"></script>
 	<script src="js/main.js"></script>
+	<script src="js/Base.js"></script>
 </body>
 
 </html>

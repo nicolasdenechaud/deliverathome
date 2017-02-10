@@ -71,13 +71,13 @@
 							<form action="">
 							<h3 class="white"><div class="image">Informations <a href="#" data-toggle="modal" data-target="#modal1" class="btn btn-blue"><img height="40" width="40" src="img/icons/iconModification.png"/></a></div></h3>
 							<table align=center>
-							<tr><td align=right><h4 class="white">Nom : </h4></td><td align=left><h5 class="white" id="nom">DENECHAUD</h5></td></tr>
-							<tr><td align=right><h4 class="white">Prénom : </h4></td><td align=left><h5 class="white" id="prenom">nicolas</h5></td></tr>
-							<tr><td align=right><h4 class="white">Adresse : </h4></td><td align=left><h5 class="white" id="adresse">Istia</h5></td></tr>
-							<tr><td align=right><h4 class="white">Code Postal : </h4></td><td align=left><h5 class="white" id="cp">49000</h5></td></tr>
-							<tr><td align=right><h4 class="white">Ville : </h4></td><td align=left><h5 class="white" id="ville">Angers</h5></td></tr>
-							<tr><td align=right><h4 class="white">E-mail : </h4></td><td align=left><h5 class="white" id="email">nicolas.denechaud@etud.univ-angers.fr</h5></td></tr>
-							<tr><td align=right><h4 class="white">Véhicule : </h4></td><td align=left><h5 class="white" id="vehicule">Voiture</h5></td></tr>
+							<tr><td align=right><h4 class="white">Nom : </h4></td><td align=left><h5 class="white" id="nom"></h5></td></tr>
+							<tr><td align=right><h4 class="white">Prénom : </h4></td><td align=left><h5 class="white" id="prenom"></h5></td></tr>
+							<tr><td align=right><h4 class="white">Adresse : </h4></td><td align=left><h5 class="white" id="adresse"></h5></td></tr>
+							<tr><td align=right><h4 class="white">Code Postal : </h4></td><td align=left><h5 class="white" id="cp"></h5></td></tr>
+							<tr><td align=right><h4 class="white">Ville : </h4></td><td align=left><h5 class="white" id="ville"></h5></td></tr>
+							<tr><td align=right><h4 class="white">E-mail : </h4></td><td align=left><h5 class="white" id="email"></h5></td></tr>
+							<tr><td align=right><h4 class="white">Véhicule : </h4></td><td align=left><h5 class="white" id="vehicule"></h5></td></tr>
 							</table>
 						</div>
 					</div>
@@ -117,7 +117,7 @@
 	<footer>
 		<div>
 			<div class="row bottom-footer text-center-mobile">
-				<div class="col-sm-8">
+				<div onload="remplirinformations()" class="col-sm-8">
 					<p>&copy; 2017 Tous droits réservé. Produit par Nicolas Denechaud, Nathan Gaborit, Stephane Polat, Mathieu Vinconneau</p>
 				</div>
 			</div>
@@ -137,6 +137,7 @@
 	<script src="js/typewriter.js"></script>
 	<script src="js/jquery.onepagenav.js"></script>
 	<script src="js/main.js"></script>
+	<script src="js/Base.js"></script>
 </body>
 
 </html>
