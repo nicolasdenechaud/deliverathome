@@ -16,12 +16,21 @@ function remplirconnection(){
   document.getElementById('mypwd').value = docXml.getElementsByTagName('motdepasse')[0].firstChild.nodeValue;
 }
 function remplirinformations(){
-  document.getElementById('nom').value = docXml.getElementsByTagName('nom')[0].firstChild.nodeValue;
-  document.getElementById('prenom').value = docXml.getElementsByTagName('prenom')[0].firstChild.nodeValue;
-  document.getElementById('adresse').value = docXml.getElementsByTagName('adresse')[0].firstChild.nodeValue;
-  document.getElementById('cp').value = docXml.getElementsByTagName('cp')[0].firstChild.nodeValue;
-  document.getElementById('ville').value = docXml.getElementsByTagName('ville')[0].firstChild.nodeValue;
-  document.getElementById('email').value = docXml.getElementsByTagName('email')[0].firstChild.nodeValue;
-  document.getElementById('vehicule').value = docXml.getElementsByTagName('vehicule')[0].firstChild.nodeValue;
+  document.getElementById('modnom').value = docXml.getElementsByTagName('nom')[0].firstChild.nodeValue;
+  document.getElementById('modprenom').value = docXml.getElementsByTagName('prenom')[0].firstChild.nodeValue;
+  document.getElementById('modadresse').value = docXml.getElementsByTagName('adresse')[0].firstChild.nodeValue;
+  document.getElementById('modcp').value = docXml.getElementsByTagName('cp')[0].firstChild.nodeValue;
+  document.getElementById('modville').value = docXml.getElementsByTagName('ville')[0].firstChild.nodeValue;
+  document.getElementById('modemail').value = docXml.getElementsByTagName('email')[0].firstChild.nodeValue;
+  document.getElementById('modvehicule').value = docXml.getElementsByTagName('vehicule')[0].firstChild.nodeValue;
 
+}
+function remplirmodifs(){
+  document.getElementById('modnom').value = document.getElementById('nom').innerText;
+  document.getElementById('modprenom').value = document.getElementById('prenom').innerText;
+  document.getElementById('modadresse').value = document.getElementById('adresse').innerText;
+  document.getElementById('modcp').value = document.getElementById('cp').innerText;
+  document.getElementById('modville').value = document.getElementById('ville').innerText;
+  document.getElementById('modemail').value = document.getElementById('email').innerText;
+  document.getElementById('modvehicule').value = document.getElementById('vehicule').innerText;
 }
