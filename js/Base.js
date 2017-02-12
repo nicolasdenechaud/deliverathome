@@ -23,5 +23,5 @@ function remplirinformations(){
   document.getElementById('ville').value = docXml.getElementsByTagName('ville')[0].firstChild.nodeValue;
   document.getElementById('email').value = docXml.getElementsByTagName('email')[0].firstChild.nodeValue;
   document.getElementById('vehicule').value = docXml.getElementsByTagName('vehicule')[0].firstChild.nodeValue;
-  
+
 }
