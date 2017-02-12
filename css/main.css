@@ -1023,7 +1023,19 @@ footer .social-footer li:hover a {
 .muted {
 	color: #989da0;
 }
-
+.resultat {
+	display: none;
+	color: white;
+}
+.resultat td{
+	min-width : 19%;
+	text-align: center;
+	border-bottom: solid
+}
+.resultat .link:hover{
+	cursor: pointer;
+	 Font-Weight: Bold;
+}
 .margin-top {
 	margin-top: 150px;
 }

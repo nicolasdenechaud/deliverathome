@@ -57,8 +57,6 @@
 					<li><a href="index.html">Accueil</a></li>
 					<li><a href="envoi.html">Envoi</a></li>
 					<li><a href="livraison.html">Livreur</a></li>
-					<li><a href="#" data-toggle="modal" data-target="#modal1" class="btn btn-blue">Inscription</a></li>
-					<li><a href="#" data-toggle="modal" data-target="#modal2" class="btn btn-blue">Se connecter</a></li>
 				</ul>
 			</div>
 			<!-- /.navbar-collapse -->
@@ -96,7 +94,7 @@
 							</tr>
 							</table>
 
-								<button type="submit" class="btn btn-submit">Rechercher</button>
+								<div type="submit" class="btn btn-submit" onclick="afficherMasquer(1)">Rechercher</div>
 							</form>
 						</div>
 					</div>
@@ -104,8 +102,25 @@
 			</div>
 		</div>
 		</header>
-	<div class="cut cut-bottom"></div>
-
+		<div id="1" class="resultat">
+			<section id="services" class="section section-padded blue-bg">
+				<div class="container">
+					<div class="row text-center title">
+						<h2 class="white">Courses</h2>
+						<div >
+						<br>
+						<table>
+						<tr><td>De Angers</td><td> à Paris<td>Pour un petit colis</td><td>Prix:4€</td><td>Le 14 fevrier 2017</td><td class="link">Je le livre!</td></tr>
+						<tr><td>De Angers</td><td> à Paris<td>Pour un gros colis</td><td>Prix:10€</td><td>Au plus tôt</td><td class="link">Je le livre!</td></tr>
+						<tr><td>De Angers</td><td> à Paris<td>Pour un petit colis</td><td>Prix:4€</td><td>Le 20 fevrier 2017</td><td class="link">Je le livre!</td></tr>
+						<tr><td>De Angers</td><td> à Paris<td>Pour un gros colis</td><td>Prix:12€</td><td>Le 13 fevrier 2017</td><td class="link">Je le livre!</td></tr>
+						<tr><td>De Angers</td><td> à Paris<td>Pour une enveloppes</td><td>Prix:2€</td><td>Le 25 fevrier 2017</td><td class="link">Je le livre!</td></tr>				
+						</table>
+						</div>
+					</div>
+				</div>
+			</section>
+		</div>
 	<!-- Fenetre popup inscription-->
 	<div class="modal fade" id="modal1" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
 		<div class="modal-dialog">

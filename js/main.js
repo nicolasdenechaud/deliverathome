@@ -168,4 +168,9 @@ jQuery(function($) {
 	$(window).on("resize", function() {
 		$('.modal:visible').each(centerModal);
 	});
+
 });
+function afficherMasquer(id)
+{
+    document.getElementById(id).style.display = "block";
+}
